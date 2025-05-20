@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Direct Factory Source - Get the same products as Temu sellers at wholesale prices">
     <meta name="robots" content="index, follow">
+    <meta http-equiv="Cache-Control" content="public, max-age=31536000">
+    <meta http-equiv="Expires" content="31536000">
     <title>Direct Factory Source - Your Global Wholesale Platform</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Preload critical images -->
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80" fetchpriority="high">
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?auto=format&fit=crop&w=600&q=80" fetchpriority="high">
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80" fetchpriority="high">
 </head>
 <body>
     <!-- Header -->
@@ -95,22 +110,100 @@
         <h2>Hot Deals</h2>
         <div class="products-grid">
             <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80" alt="Bohemian Style Jumpsuit">
+                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80" 
+                     alt="Bohemian Style Jumpsuit"
+                     loading="lazy"
+                     width="600"
+                     height="400">
                 <h3>Bohemian Style Jumpsuit</h3>
                 <p class="price">$17.99 <span class="original-price">$89.99</span></p>
                 <a href="https://casmedia.linkrall-trk.com/clk.php?offer_id=2641697&aff_id=640&aff_sub1={CLICK_ID}&source_id={SOURCE_ID}" class="product-button" target="_blank" aria-label="View Bohemian Style Jumpsuit details">View Details</a>
             </div>
             <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?auto=format&fit=crop&w=600&q=80" alt="21V Cordless Impact Wrench Set">
+                <img src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?auto=format&fit=crop&w=600&q=80" 
+                     alt="21V Cordless Impact Wrench Set"
+                     loading="lazy"
+                     width="600"
+                     height="400">
                 <h3>21V Cordless Impact Wrench Set</h3>
                 <p class="price">$18.52 <span class="original-price">$35.00</span></p>
                 <a href="https://casmedia.linkrall-trk.com/clk.php?offer_id=2641697&aff_id=640&aff_sub1={CLICK_ID}&source_id={SOURCE_ID}" class="product-button" target="_blank" aria-label="View 21V Cordless Impact Wrench Set details">View Details</a>
             </div>
             <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80" alt="Men's Hooded Sweatshirt">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80" 
+                     alt="Men's Hooded Sweatshirt"
+                     loading="lazy"
+                     width="600"
+                     height="400">
                 <h3>Men's Hooded Sweatshirt</h3>
                 <p class="price">$12.99 <span class="original-price">$49.99</span></p>
                 <a href="https://casmedia.linkrall-trk.com/clk.php?offer_id=2641697&aff_id=640&aff_sub1={CLICK_ID}&source_id={SOURCE_ID}" class="product-button" target="_blank" aria-label="View Men's Hooded Sweatshirt details">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges Section -->
+    <section id="trust" class="trust">
+        <div class="trust-container">
+            <div class="trust-badge">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Secure Shopping</h3>
+                <p>SSL Encrypted</p>
+            </div>
+            <div class="trust-badge">
+                <i class="fas fa-truck"></i>
+                <h3>Fast Shipping</h3>
+                <p>Worldwide Delivery</p>
+            </div>
+            <div class="trust-badge">
+                <i class="fas fa-undo"></i>
+                <h3>Easy Returns</h3>
+                <p>30-Day Guarantee</p>
+            </div>
+            <div class="trust-badge">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Always Available</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"I saved over $200 on my first order! The quality is exactly the same as what I see on Temu, but at wholesale prices."</p>
+                <p class="testimonial-author">- Sarah M.</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"Fast shipping and great prices. I'm now buying all my products here instead of retail stores."</p>
+                <p class="testimonial-author">- John D.</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"The factory direct prices are unbeatable. I've recommended this to all my friends!"</p>
+                <p class="testimonial-author">- Emily R.</p>
             </div>
         </div>
     </section>
